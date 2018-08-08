@@ -15,6 +15,7 @@ libOmxAmrEnc-def += -DVERBOSE
 libOmxAmrEnc-def += -D_DEBUG
 libOmxAmrEnc-def += -Wconversion
 libOmxAmrEnc-def += -DAUDIOV2
+libOmxAmrEnc-def += -Wno-error
 
 # ---------------------------------------------------------------------------------
 #             Make the Shared library (libOmxAmrEnc)

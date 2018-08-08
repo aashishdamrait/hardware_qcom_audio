@@ -28,16 +28,14 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef AENC_SVR_H
 #define AENC_SVR_H
 
+#define LOG_TAG "QC_EVRCENC"
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 #include <pthread.h>
 #include <sched.h>
 #include <utils/Log.h>
-
-#ifdef _ANDROID_
-#define LOG_TAG "QC_EVRCENC"
-#endif
 
 #ifndef LOGE
 #define LOGE ALOGE

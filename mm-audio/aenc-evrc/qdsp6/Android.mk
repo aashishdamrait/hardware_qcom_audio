@@ -15,6 +15,7 @@ libOmxEvrcEnc-def += -DVERBOSE
 libOmxEvrcEnc-def += -D_DEBUG
 libOmxEvrcEnc-def += -Wconversion
 libOmxEvrcEnc-def += -DAUDIOV2
+libOmxEvrcEnc-def += -Wno-error
 
 # ---------------------------------------------------------------------------------
 #             Make the Shared library (libOmxEvrcEnc)

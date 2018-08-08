@@ -3,7 +3,7 @@ LOCAL_PATH:= $(call my-dir)
 
 qcom_post_proc_common_cflags := \
     -O2 -fvisibility=hidden \
-    -Wall -Werror \
+    -Wall -Wno-error \
     -Wno-unused-function \
     -Wno-unused-variable \
 

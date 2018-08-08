@@ -63,6 +63,7 @@ struct be_dai_name_struct {
 };
 
 enum card_status_t;
+struct audio_usecase;
 
 void *platform_init(struct audio_device *adev);
 void platform_deinit(void *platform);
