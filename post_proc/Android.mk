@@ -6,6 +6,8 @@ qcom_post_proc_common_cflags := \
     -Wall -Wno-error \
     -Wno-unused-function \
     -Wno-unused-variable \
+    -Wno-error \
+    -Wno-sign-compare
 
 include $(CLEAR_VARS)
 

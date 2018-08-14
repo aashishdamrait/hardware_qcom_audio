@@ -30,6 +30,8 @@ LOCAL_MODULE             := libOmxEvrcEnc
 LOCAL_MODULE_TAGS        := optional
 LOCAL_VENDOR_MODULE      := true
 LOCAL_CFLAGS            := $(libOmxEvrcEnc-def)
+LOCAL_CPPFLAGS          := -Wno-error \
+                           -Wno-sign-conversion
 LOCAL_C_INCLUDES        := $(libOmxEvrcEnc-inc)
 LOCAL_PRELINK_MODULE    := false
 LOCAL_SHARED_LIBRARIES  := libutils liblog
